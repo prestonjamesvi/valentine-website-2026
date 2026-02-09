@@ -25,18 +25,18 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I love you! 💙"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            nextBtn: "Next 💙"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
-        }
+            noBtn: "No 💙"                                                 // Text for "No" button
+
     },
 
     // Love meter messages
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now a big warm hug and a huge kiss when I see you to make it official!",
-        emojis: "🎁💖💙😘💋"  // These will bounce around
+        title: "Yesss, Now I'm the luckiest person in the world with the Prettiest Lady as my Valentine! 🥰🥹💙",
+        message: "Now, just a big warm hug and a huge kiss when I see you to make it official!",
+        emojis: "🎁💙😘💋"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://www.youtube.com/watch?v=vBy7FaapGRo", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dqfifo1uj/video/upload/v1770673964/Daniel_Caesar_-_Best_Part_Audio_ft._H.E.R._fvvisl.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
